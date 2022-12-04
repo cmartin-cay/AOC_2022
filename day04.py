@@ -24,3 +24,15 @@ for each in sectors:
     result += engulf(each)
 
 print(result)
+
+# Part 2 - Any overlap at all
+result = 0
+def any_overlap(sections):
+    a = set(range(sections[0], sections[1] + 1))
+    b = set(range(sections[2], sections[3] + 1))
+    return 1 if a & b else 0
+
+for each in sectors:
+    result += any_overlap(each)
+
+print(result)
