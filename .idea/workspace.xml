@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86afece-3ab3-4b7d-9f3c-8ed7d2e14697" name="Changes" comment="&#10;&#10;Delete puzzle inputs from github">
-      <change beforePath="$PROJECT_DIR$/.idea/AOC_2022.iml" beforeDir="false" />
+    <list default="true" id="4d15ff65-aa12-46e9-a025-c4bd7f5b13ba" name="Changes" comment="Day 4: For Part 1 I forgot that issubset() is a thing. Part 2 is fine.&#10;&#10;Ideally I wouldn't brute force the ranges and would remember the comparisons for overlapping in case of huge number ranges when set(range(x)) will be huge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +22,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="url" value="https://github.com/cmartin-cay/AOC_2022.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IFHJ58h8p0jzFE074w3totF4tb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2ISKhwMLS75kwfyzoEqXzSPo4hU" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,21 +35,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/colin/PycharmProjects/AOC_2022&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.day10">
-    <configuration name="day06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.day12">
+    <configuration name="day04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOC_2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +59,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOC_2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,73 +81,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOC_2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day08.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOC_2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOC_2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,164 +92,41 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day10" />
-        <item itemvalue="Python.day09" />
-        <item itemvalue="Python.day08" />
-        <item itemvalue="Python.day07" />
-        <item itemvalue="Python.day06" />
+        <item itemvalue="Python.day12" />
+        <item itemvalue="Python.day04" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d86afece-3ab3-4b7d-9f3c-8ed7d2e14697" name="Changes" comment="" />
-      <created>1669770335443</created>
+      <changelist id="4d15ff65-aa12-46e9-a025-c4bd7f5b13ba" name="Changes" comment="" />
+      <created>1670169668110</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669770335443</updated>
-      <workItem from="1669770337434" duration="1405000" />
-      <workItem from="1669898539703" duration="766000" />
-      <workItem from="1669934181500" duration="3238000" />
-      <workItem from="1669984134338" duration="1065000" />
-      <workItem from="1670020680088" duration="2418000" />
-      <workItem from="1670083119788" duration="10000" />
-      <workItem from="1670084627034" duration="2000000" />
-      <workItem from="1670086637082" duration="1262000" />
-      <workItem from="1670163410300" duration="3993000" />
-      <workItem from="1670330433769" duration="63000" />
-      <workItem from="1670364208732" duration="3398000" />
-      <workItem from="1670452766206" duration="3845000" />
-      <workItem from="1670625604097" duration="3974000" />
-      <workItem from="1670632459977" duration="581000" />
-      <workItem from="1670633343298" duration="1435000" />
-      <workItem from="1670681305733" duration="2632000" />
-      <workItem from="1670686339556" duration="3354000" />
+      <updated>1670169668110</updated>
+      <workItem from="1670169670348" duration="2022000" />
+      <workItem from="1670886872750" duration="2613000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1669770479830</created>
+    <task id="LOCAL-00001" summary="Day 4: For Part 1 I forgot that issubset() is a thing. Part 2 is fine.&#10;&#10;Ideally I wouldn't brute force the ranges and would remember the comparisons for overlapping in case of huge number ranges when set(range(x)) will be huge">
+      <created>1670171737978</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1669770479830</updated>
+      <updated>1670171737978</updated>
     </task>
-    <task id="LOCAL-00002" summary="Day 1: Double-spaced inputs. What a dick move">
-      <created>1669937041207</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669937041207</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Day 2: Wish I'd realized that there are only 9 possible results and I could coded only 2 dicts instead of I can't even count how many">
-      <created>1670023924389</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1670023924389</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Day 3: Fun with sets. And a reminder of how to chunk a list into equal size parts">
-      <created>1670087874462</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1670087874462</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Day 4: Part 1 only. No real comments yet">
-      <created>1670167849454</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1670167849454</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Day 5: I couldn't parse a vertical list, and so I just gave up and hardcoded it. Screw it">
-      <created>1670365647558</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1670365647558</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Day 6: Remarkably easy. Used a maxlen deque for simplicity. No idea if that's more efficient than created a new list for each subgroup of characters. Don't really care either">
-      <created>1670366991469</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1670366991469</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Day 07: That was just vicious. The input data didn't indicate that directory names would be duplicated so I had to learn &quot;accumuate&quot;. And yes I stole it from a solution but it was a solution I didn't understand">
-      <created>1670456405822</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1670456405823</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Day 08: Part 1. It's a god ugly mess and I don't really know how it works but it kind of does.&#10;&#10;No clue how to do Part 2 yet">
-      <created>1670625743631</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1670625743631</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Day 09: This one just works. Hooray. Fun with ropes and knots">
-      <created>1670629019377</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1670629019377</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Day 09: This one just works. Hooray. Fun with ropes and knots">
-      <created>1670629036433</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1670629036433</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Maintenance - remove challenge inputs">
-      <created>1670629457474</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1670629457474</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Day 1: Double-spaced inputs. What a dick move" />
-    <MESSAGE value="Day 2: Wish I'd realized that there are only 9 possible results and I could coded only 2 dicts instead of I can't even count how many" />
-    <MESSAGE value="Day 3: Fun with sets. And a reminder of how to chunk a list into equal size parts" />
-    <MESSAGE value="Day 4: Part 1 only. No real comments yet" />
-    <MESSAGE value="Day 5: I couldn't parse a vertical list, and so I just gave up and hardcoded it. Screw it" />
-    <MESSAGE value="Day 6: Remarkably easy. Used a maxlen deque for simplicity. No idea if that's more efficient than created a new list for each subgroup of characters. Don't really care either" />
-    <MESSAGE value="Day 07: That was just vicious. The input data didn't indicate that directory names would be duplicated so I had to learn &quot;accumuate&quot;. And yes I stole it from a solution but it was a solution I didn't understand" />
-    <MESSAGE value="Day 08: Part 1. It's a god ugly mess and I don't really know how it works but it kind of does.&#10;&#10;No clue how to do Part 2 yet" />
-    <MESSAGE value="Day 09: This one just works. Hooray. Fun with ropes and knots" />
-    <MESSAGE value="Maintenance - remove challenge inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Day 4: For Part 1 I forgot that issubset() is a thing. Part 2 is fine.&#10;&#10;Ideally I wouldn't brute force the ranges and would remember the comparisons for overlapping in case of huge number ranges when set(range(x)) will be huge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4: For Part 1 I forgot that issubset() is a thing. Part 2 is fine.&#10;&#10;Ideally I wouldn't brute force the ranges and would remember the comparisons for overlapping in case of huge number ranges when set(range(x)) will be huge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AOC_2022$day07.coverage" NAME="day07 Coverage Results" MODIFIED="1670625697745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day04.coverage" NAME="day04 Coverage Results" MODIFIED="1670167611881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day06.coverage" NAME="day06 Coverage Results" MODIFIED="1670366913253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day10.coverage" NAME="day10 Coverage Results" MODIFIED="1670689581670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day08.coverage" NAME="day08 Coverage Results" MODIFIED="1670625703148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day05.coverage" NAME="day05 Coverage Results" MODIFIED="1670366035969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day03.coverage" NAME="day03 Coverage Results" MODIFIED="1670087393423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AOC_2022$day09.coverage" NAME="day09 Coverage Results" MODIFIED="1670633579196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AOC_2022$day04.coverage" NAME="day04 Coverage Results" MODIFIED="1670169846107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AOC_2022$day12.coverage" NAME="day12 Coverage Results" MODIFIED="1670889476824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
