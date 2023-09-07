@@ -1,4 +1,3 @@
-
 import ast
 
 with open("day05.txt") as f:
@@ -12,6 +11,7 @@ with open("day05.txt") as f:
 
 print(left_vals[4])
 print(right_vals[4])
+
 
 def in_order(l1, l2):
     if isinstance(l1, int) and isinstance(l2, int):
@@ -28,5 +28,6 @@ def in_order(l1, l2):
     if isinstance(l1, int):
         return in_order([l1], l2)
     return in_order(l1, [l2])
+
 
 print(in_order(left_vals[4], right_vals[4]))

@@ -1,6 +1,6 @@
 # If we hit a 9 in any direction
 # the rest of those trees must be hidden in that direction
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -9,6 +9,7 @@ class Tree:
     y_pos: int
     height: int
     visible: bool = False
+    vis_score: list[int] = field(default_factory=list)
 
 
 with open("day08.txt") as f:
@@ -49,5 +50,13 @@ for row in vertical:
     scan_row(row)
 
 vis = [sum(1 for j in i if j.visible) for i in tree_list]
+print(f"Part 1 {sum(vis)}")
 
+width = len(horizontal[0])
+print(f"{width=}")
 
+for row in horizontal:
+    for idx, elem in enumerate(row):
+        # print(row[:idx])
+        print(row[idx:])
+        break
